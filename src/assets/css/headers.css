@@ -1,0 +1,54 @@
+.header {
+    overflow: hidden;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	align-items: center;
+	background-color: var(--header-color);
+    text-align: center;
+    display: block;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: var(--main-font-alt);
+    margin: 10px;
+    padding: 10px;
+    line-height: 300%;
+    font-weight: 560;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+/* description and heading thing below */
+.header .h1-thing h1 {
+    font-family: var(--main-font-alt);
+}
+
+.header .description {
+    color: white;
+    font-family: var(--main-font-alt);
+}
+
+/* description and heading thing above */
+
+/* wave stuff below*/
+
+.invertedWave {
+    -webkit-transform: matrix(1,0,0,-1,0,0);
+    transform: matrix(1,0,0,-1,0,0);
+}
+
+.wave-div {
+    color: #f6f6f6;
+    color: var(--header-color);
+}
+
+.wave-svg {
+    display: block;
+}
+
+.wavePath {
+    -webkit-animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
+    animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
+}
