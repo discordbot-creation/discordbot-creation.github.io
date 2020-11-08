@@ -3,6 +3,7 @@
     --main-font: sans-serif;
     --header-color-alt: #777272;
     --main-font-alt: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;
+    --text-link: #0f7df2;
 }
 
 body {
@@ -28,10 +29,17 @@ body {
     vertical-align: middle;
 }
 
+.description a {
+    text-decoration: none;
+    color: var(--text-link);
+    cursor: pointer;
+}
+
 .h1 .text {
     color: white;
     text-align: center;
     vertical-align: middle;
+    font-family: var(--main-font);
 }
 
 .js-libs {
@@ -60,7 +68,7 @@ body {
     justify-content: center;
 }
 
-.js-libs .djs-npm{
+.js-libs .djs-npm {
     background-image: url(https://nodei.co/npm/discord.js.png?downloads=true&amp;stars=true);
     width: 379px;
     display: inline-block;
