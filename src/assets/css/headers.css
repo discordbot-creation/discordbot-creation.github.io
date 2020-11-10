@@ -87,3 +87,15 @@
     -webkit-animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
     animation: waveDividerAnimation-2m2aau 20s linear infinite alternate;
 }
+
+footer .header a svg:hover {
+    fill: #fff;
+}
+
+footer .header {
+    display: block;
+}
+
+footer .wave-div {
+    display: block;
+}

@@ -74,3 +74,11 @@ body {
     display: inline-block;
     height: 57px;
 }
+
+.fa-3x {
+    font-size: 3em;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1em;
+}
