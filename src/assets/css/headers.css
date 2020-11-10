@@ -91,11 +91,3 @@
 footer .header a svg:hover {
     fill: #fff;
 }
-
-footer .header {
-    display: block;
-}
-
-footer .wave-div {
-    display: block;
-}

@@ -12,6 +12,21 @@ body {
     background-color: #666565;
     margin: 0;
     min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer a {
+    color: gray;
+}
+
+footer a:hover {
+    color: #e8e6e6;
 }
 
 .h1 {
